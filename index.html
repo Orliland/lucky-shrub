@@ -4,70 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucky Shrub</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
     <header>
-      <img src="./assets/logo2.png" alt="" />
+      <img class="logo" src="./assets/logo3.png" alt="" />
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Nursery</a></li>
-          <li><a href="#">landscaping</a></li>
-          <li><a href="#">Contact US</a></li>
+        <ul class="menu">
+          <li><a href="#" class="menu__link">Home</a></li>
+          <li><a href="#" class="menu__link">Nursery</a></li>
+          <li>
+            <a href="#" class="menu__link">landscaping</a>
+          </li>
+          <li>
+            <a href="#" class="menu__link">Contact US</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div>
-        <img src="./assets/offer.webp" alt="landscaping garden" />
-        <p>
-          Get <span>30%</span> discount on all plants when you hire our
-          landscaping service.
-        </p>
-        <a href="#">Get Offer</a>
+      <div class="ads">
+        <img
+          class="ads__image"
+          src="./assets/offer.webp"
+          alt="Landscaping offer"
+        />
+
+        <a href="#" class="ads__msg">
+          Get <b>30%</b> discount on all plants when you hire our landscaping
+          service.
+        </a>
       </div>
-      <section>
-        <article>
-          <div>
-            <span>Seasonal Plants</span>
-            <h2>Build your garden</h2>
+      <section class="cards">
+        <article class="card">
+          <div class="card__header">
+            <span class="card__subtitle">Seasonal Plants</span>
+            <h2 class="card__title">Build your garden</h2>
           </div>
-          <img src="./assets/nursery.webp" alt="" />
-          <div>
-            <p>We have indoor and outdoor plants for all seasons.</p>
-            <a href="#">Buy Plants</a>
-          </div>
-        </article>
-        <article>
-          <div>
-            <span>Transform your home</span>
-            <h2>we create and design your garden</h2>
-          </div>
-          <img src="./assets/garden.webp" alt="" />
-          <div>
-            <p>Transform any space into an oasis you can be proud of</p>
-            <a href="#">Landscaping</a>
+          <img class="card__image" src="./assets/nursery.webp" alt="" />
+          <div class="card__footer">
+            <p class="card__msg">
+              We have indoor and outdoor plants for all seasons.
+            </p>
+            <a class="card__btn" href="#">Buy Plants</a>
           </div>
         </article>
-        </article>
-        <article>
-          <div>
-            <span>About US</span>
-            <h2>Know our history</h2>
+
+        <article class="card">
+          <div class="card__header">
+            <span class="card__subtitle">Transform your home</span>
+            <h2 class="card__title">We create and design your garden</h2>
           </div>
-          <img src="./assets/aboutus.webp" alt="" />
-          <div>
-            <p>Lucky Shrub was started by a husband and wife team</p>
-            <a href="#">Learn more</a>
+          <img class="card__image" src="./assets/garden.webp" alt="" />
+          <div class="card__footer">
+            <p class="card__msg">
+              Transform any space into an oasis you can be proud of
+            </p>
+            <a class="card__btn" href="#">Landscaping</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__header">
+            <span class="card__subtitle">About US</span>
+            <h2 class="card__title">Know our history</h2>
+          </div>
+          <img class="card__image" src="./assets/aboutus.webp" alt="" />
+          <div class="card__footer">
+            <p class="card__msg">
+              Lucky Shrub was started by a husband and wife team
+            </p>
+            <a class="card__btn" href="#">Learn more</a>
           </div>
         </article>
       </section>
     </main>
     <footer>
-      <div>
-        <img src="./assets/logo2.png" alt="" />
-      </div>
+      <img class="logo" src="./assets/logo3.png" alt="" />
       <div>&copy; Copyright 2024 Lucky Shrub</div>
     </footer>
   </body>
